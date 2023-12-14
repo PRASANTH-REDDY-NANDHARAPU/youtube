@@ -1,0 +1,165 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar {
+  width: 100%;
+  background-color: red;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 10px 0px 5px #c6c6c6, -20px -20px 60px #ffffff;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.body {
+  width: auto;
+  height: 100vh;
+  /* background-color: blue; */
+  padding-top: 75px;
+  display: flex;
+  align-items: center;
+}
+.ham {
+  width: 30px;
+  height: 40px;
+  object-fit: cover;
+}
+.tube-logo {
+  width: 130px;
+  height: 30px;
+  object-fit: cover;
+}
+.search {
+  width: 500px;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-bottom-left-radius: 40px;
+  outline: none;
+  border-top-left-radius: 40px;
+}
+.s-bnt {
+  padding: 3px 25px;
+  font-size: 23px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.mic {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.mic-btn {
+  border: none;
+  border-radius: 50%;
+  padding: 5px 8px;
+  margin-left: 20px;
+}
+.user {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-right: 50px;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+.sidebar{
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+  box-shadow: 0px 0px 5px #c6c6c6, -20px -20px 60px #ffffff;
+
+}
+.maincontainer{
+    width: 80%;
+    height: 100%;
+   
+
+
+}
+.btn-container{
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    top: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    overflow-x: auto;
+
+   
+    
+}
+.v-container{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+.video{
+    width: 320px;
+    /* height: 220px; */
+    /* border: 1px solid red; */
+    margin: 5px;
+    cursor: pointer;
+}
+.btn-items{
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 6px 10px;
+    border-radius: 8px;
+    margin: 5px;
+    
+}
+.btn-flex{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    background-color: rgb(192, 192, 192);
+}
+.side-btn{
+    text-align: start;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 12px 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.side-ico{
+    margin-right: 10px;
+}
+.tube-img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.title{
+  margin: 1px;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.n-v{
+  padding-top: 80px;
+  padding-left: 30px;
+}
